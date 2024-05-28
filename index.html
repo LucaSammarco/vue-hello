@@ -18,11 +18,16 @@
         <img :src="immagine" alt="">
     
 
-    <h1> {{ message }}  {{ car }} 
+    <h1> Ciao, {{ message }}  {{ car }} 
     
     
     </h1>    
     
+    <label for="h1Text">Write here </label>
+    <input type="text" v-model="message"> <br>
+
+    <label for="urlImage">Display your image</label> 
+    <input type="text" v-model="immagine">
     
     </div>
 
